@@ -1,0 +1,3 @@
+## ignore this tetx ##
+
+/node_mondules/ 
