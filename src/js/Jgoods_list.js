@@ -1,7 +1,7 @@
 $(function(){
     // 添加
     $('body').on('click','#add',function(){
-        location.href = 'http://localhost:10001/html/goods_add.html';
+        location.href = 'goods_add.html';
     });
 
     // 搜索功能

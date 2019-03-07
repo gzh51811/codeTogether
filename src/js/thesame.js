@@ -28,14 +28,15 @@ window.onload = function () {
         xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
         xhr.send('token=' + user.token)
     }else{
-        location.href = 'http://localhost:10001/html/login.html';
+        alert('您还没登录哦，麻烦先去登录哦');
+        location.href = '../index.html';
     }
 
     //退出
     out.onclick = () => {
         localStorage.removeItem('username');
         $.cookie('the_cookie', null); //移除cookie;
-        location.href = 'login.html';
+        location.href = '../index.html';
     }
 
 }

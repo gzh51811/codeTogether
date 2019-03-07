@@ -150,7 +150,6 @@
     </div>
   </div>
 
-  <script src="../assets/layui-v2.4.5/layui/layui.js"></script>
   <script>
     //JavaScript代码区域
     layui.use('element', function () {
@@ -159,9 +158,7 @@
 
     //获取用户列表页网址
     let userlistid = decodeURI(location.search);
-    // console.log(userlistid);
     let str = userlistid.slice(1);
-    // console.log(str);
 
     //向数据库查询数据渲染
     let xhr = new XMLHttpRequest;
@@ -179,8 +176,6 @@
         $('.reg_birth').val(arr[0].birth);
         $('.reg_gender').val(arr[0].gender);
         $('.reg_details').val(arr[0].details);
-        //console.log($('.reg_details').val())
-
 
         let reg_user = document.querySelector('.reg_user');
         let reg_password = document.querySelector('.reg_password');

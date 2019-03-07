@@ -50,7 +50,7 @@ $(function(){
                         let res = JSON.parse(xhr.responseText);
                         if(res.ok){
                             alert('编辑商品分类成功');
-                            location.href = 'http://localhost:10001/html/goods_type.html';
+                            location.href = 'goods_type.html';
                         }
                     }
                 }
@@ -67,7 +67,7 @@ $(function(){
                         let res = JSON.parse(xhr.responseText);
                         if(res.ok){
                             alert('添加商品分类成功');
-                            location.href = 'http://localhost:10001/html/goods_type.html';
+                            location.href = 'goods_type.html';
                         }
                     }
                 }

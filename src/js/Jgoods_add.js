@@ -83,7 +83,7 @@ $(function () {
                         let res = JSON.parse(xhr.responseText);
                         if (res.ok) {
                             alert('修改商品成功');
-                            location.href = 'http://localhost:10001/html/goods_list.html';
+                            location.href = 'goods_list.html';
                         }
                     }
                 }
@@ -100,7 +100,7 @@ $(function () {
                         let res = JSON.parse(xhr.responseText);
                         if (res.ok) {
                             alert('添加商品成功');
-                            location.href = 'http://localhost:10001/html/goods_list.html';
+                            location.href = 'goods_list.html';
                         }
                     }
                 }
